@@ -114,9 +114,9 @@ class Game {
     camera.position.x = 0;
     Player.getPlayerInfo();
     imageMode(CENTER);
-    image("bronzeImg", displayWidth / -4, -100 + displayHeight / 9, 200, 240);
-    image("silverImg", displayWidth / 4, -100 + displayHeight / 10, 225, 270);
-    image("goldImg", 0, -100, 250, 300);
+    image(bronzeImg, displayWidth / -4, -100 + displayHeight / 9, 200, 240);
+    image(silverImg, displayWidth / 4, -100 + displayHeight / 10, 225, 270);
+    image(goldImg, 0, -100, 250, 300);
     textAlign(CENTER);
     textSize(50)
    
